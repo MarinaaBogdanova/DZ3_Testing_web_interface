@@ -19,10 +19,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class CallbackTest {
     private WebDriver driver;
 
-//    @BeforeAll
-//    static void setUpAll() {
-//        WebDriverManager.chromedriver().setup();
-//    }
+    @BeforeAll
+    static void setUpAll() {
+        WebDriverManager.chromedriver().setup();
+    }
 
     @BeforeEach
     void setUp() {
